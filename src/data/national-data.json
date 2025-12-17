@@ -1,0 +1,198 @@
+{
+  "nationalProduction": {
+    "padi": {
+      "name": "Padi",
+      "category": "pertanian",
+      "totalProduction": 54600000,
+      "averageProductivity": 5.2,
+      "totalLandArea": 10500000,
+      "consumptionPerCapita": 95.5
+    },
+    "jagung": {
+      "name": "Jagung",
+      "category": "pertanian",
+      "totalProduction": 24200000,
+      "averageProductivity": 5.1,
+      "totalLandArea": 4750000,
+      "consumptionPerCapita": 18.5
+    },
+    "karet": {
+      "name": "Karet",
+      "category": "perkebunan",
+      "totalProduction": 3100000,
+      "averageProductivity": 1.5,
+      "totalLandArea": 3650000,
+      "consumptionPerCapita": 0.5
+    },
+    "sawit": {
+      "name": "Kelapa Sawit",
+      "category": "perkebunan",
+      "totalProduction": 48000000,
+      "averageProductivity": 3.8,
+      "totalLandArea": 14500000,
+      "consumptionPerCapita": 25.8
+    },
+    "kakao": {
+      "name": "Kakao",
+      "category": "perkebunan",
+      "totalProduction": 720000,
+      "averageProductivity": 0.8,
+      "totalLandArea": 1650000,
+      "consumptionPerCapita": 0.3
+    },
+    "kopi": {
+      "name": "Kopi",
+      "category": "perkebunan",
+      "totalProduction": 765000,
+      "averageProductivity": 0.7,
+      "totalLandArea": 1250000,
+      "consumptionPerCapita": 1.2
+    },
+    "sapi": {
+      "name": "Sapi Potong",
+      "category": "peternakan",
+      "totalProduction": 4800000,
+      "averageProductivity": 0,
+      "totalLandArea": 0,
+      "consumptionPerCapita": 2.8
+    },
+    "singkong": {
+      "name": "Singkong",
+      "category": "pertanian",
+      "totalProduction": 18500000,
+      "averageProductivity": 24.5,
+      "totalLandArea": 755000,
+      "consumptionPerCapita": 12.5
+    },
+    "bandeng": {
+      "name": "Ikan Bandeng",
+      "category": "perikanan",
+      "totalProduction": 650000,
+      "averageProductivity": 0,
+      "totalLandArea": 0,
+      "consumptionPerCapita": 3.5
+    }
+  },
+  "surplusDeficitData": [
+    {
+      "regionId": "kalteng-kotim",
+      "regionName": "Kotawaringin Timur",
+      "province": "Kalimantan Tengah",
+      "commodityId": "padi",
+      "production": 125000,
+      "consumption": 85000,
+      "population": 890000,
+      "consumptionPerCapita": 95.5,
+      "surplus": 40000,
+      "status": "surplus"
+    },
+    {
+      "regionId": "sulsel-luwu",
+      "regionName": "Luwu Utara",
+      "province": "Sulawesi Selatan",
+      "commodityId": "padi",
+      "production": 245000,
+      "consumption": 112000,
+      "population": 1172000,
+      "consumptionPerCapita": 95.5,
+      "surplus": 133000,
+      "status": "surplus"
+    },
+    {
+      "regionId": "sumsel-oki",
+      "regionName": "Ogan Komering Ilir",
+      "province": "Sumatera Selatan",
+      "commodityId": "padi",
+      "production": 385000,
+      "consumption": 165000,
+      "population": 1728000,
+      "consumptionPerCapita": 95.5,
+      "surplus": 220000,
+      "status": "surplus"
+    },
+    {
+      "regionId": "lampung-mesuji",
+      "regionName": "Mesuji",
+      "province": "Lampung",
+      "commodityId": "padi",
+      "production": 168000,
+      "consumption": 55000,
+      "population": 576000,
+      "consumptionPerCapita": 95.5,
+      "surplus": 113000,
+      "status": "surplus"
+    },
+    {
+      "regionId": "papua-merauke",
+      "regionName": "Merauke",
+      "province": "Papua",
+      "commodityId": "padi",
+      "production": 295000,
+      "consumption": 42000,
+      "population": 440000,
+      "consumptionPerCapita": 95.5,
+      "surplus": 253000,
+      "status": "surplus"
+    },
+    {
+      "regionId": "jakarta",
+      "regionName": "DKI Jakarta",
+      "province": "DKI Jakarta",
+      "commodityId": "padi",
+      "production": 1200,
+      "consumption": 985000,
+      "population": 10320000,
+      "consumptionPerCapita": 95.5,
+      "surplus": -983800,
+      "status": "deficit"
+    },
+    {
+      "regionId": "jabar-bandung",
+      "regionName": "Kota Bandung",
+      "province": "Jawa Barat",
+      "commodityId": "padi",
+      "production": 8500,
+      "consumption": 245000,
+      "population": 2565000,
+      "consumptionPerCapita": 95.5,
+      "surplus": -236500,
+      "status": "deficit"
+    },
+    {
+      "regionId": "jatim-surabaya",
+      "regionName": "Kota Surabaya",
+      "province": "Jawa Timur",
+      "commodityId": "padi",
+      "production": 5200,
+      "consumption": 275000,
+      "population": 2880000,
+      "consumptionPerCapita": 95.5,
+      "surplus": -269800,
+      "status": "deficit"
+    },
+    {
+      "regionId": "banten-tangerang",
+      "regionName": "Kota Tangerang",
+      "province": "Banten",
+      "commodityId": "padi",
+      "production": 3800,
+      "consumption": 195000,
+      "population": 2042000,
+      "consumptionPerCapita": 95.5,
+      "surplus": -191200,
+      "status": "deficit"
+    },
+    {
+      "regionId": "jabar-bekasi",
+      "regionName": "Kota Bekasi",
+      "province": "Jawa Barat",
+      "commodityId": "padi",
+      "production": 2100,
+      "consumption": 285000,
+      "population": 2985000,
+      "consumptionPerCapita": 95.5,
+      "surplus": -282900,
+      "status": "deficit"
+    }
+  ]
+}

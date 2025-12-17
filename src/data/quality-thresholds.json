@@ -1,0 +1,296 @@
+{
+  "padi": {
+    "name": "Padi/Beras",
+    "parameters": [
+      {
+        "id": "patahan",
+        "name": "Butir Patah",
+        "unit": "%",
+        "description": "Persentase butir beras yang patah",
+        "thresholds": {
+          "A": { "min": 0, "max": 5 },
+          "B": { "min": 5, "max": 10 },
+          "C": { "min": 10, "max": 100 }
+        }
+      },
+      {
+        "id": "kadarAir",
+        "name": "Kadar Air",
+        "unit": "%",
+        "description": "Kandungan air dalam beras",
+        "thresholds": {
+          "A": { "min": 0, "max": 14 },
+          "B": { "min": 14, "max": 16 },
+          "C": { "min": 16, "max": 100 }
+        }
+      },
+      {
+        "id": "derajatSosoh",
+        "name": "Derajat Sosoh",
+        "unit": "%",
+        "description": "Tingkat penggilingan beras",
+        "thresholds": {
+          "A": { "min": 95, "max": 100 },
+          "B": { "min": 90, "max": 95 },
+          "C": { "min": 0, "max": 90 }
+        }
+      },
+      {
+        "id": "butirMerah",
+        "name": "Butir Merah",
+        "unit": "%",
+        "description": "Persentase butir berwarna merah/coklat",
+        "thresholds": {
+          "A": { "min": 0, "max": 2 },
+          "B": { "min": 2, "max": 5 },
+          "C": { "min": 5, "max": 100 }
+        }
+      }
+    ]
+  },
+  "jagung": {
+    "name": "Jagung",
+    "parameters": [
+      {
+        "id": "kadarAir",
+        "name": "Kadar Air",
+        "unit": "%",
+        "description": "Kandungan air dalam jagung",
+        "thresholds": {
+          "A": { "min": 0, "max": 13 },
+          "B": { "min": 13, "max": 15 },
+          "C": { "min": 15, "max": 100 }
+        }
+      },
+      {
+        "id": "butirRusak",
+        "name": "Butir Rusak",
+        "unit": "%",
+        "description": "Persentase butir jagung yang rusak",
+        "thresholds": {
+          "A": { "min": 0, "max": 3 },
+          "B": { "min": 3, "max": 7 },
+          "C": { "min": 7, "max": 100 }
+        }
+      },
+      {
+        "id": "kotoran",
+        "name": "Kotoran",
+        "unit": "%",
+        "description": "Persentase benda asing dalam jagung",
+        "thresholds": {
+          "A": { "min": 0, "max": 1 },
+          "B": { "min": 1, "max": 2 },
+          "C": { "min": 2, "max": 100 }
+        }
+      },
+      {
+        "id": "kadarAflatoksin",
+        "name": "Kadar Aflatoksin",
+        "unit": "ppb",
+        "description": "Kandungan aflatoksin (mikotoksin)",
+        "thresholds": {
+          "A": { "min": 0, "max": 20 },
+          "B": { "min": 20, "max": 50 },
+          "C": { "min": 50, "max": 1000 }
+        }
+      }
+    ]
+  },
+  "kopi": {
+    "name": "Kopi",
+    "parameters": [
+      {
+        "id": "defects",
+        "name": "Nilai Cacat",
+        "unit": "per 300g",
+        "description": "Jumlah cacat per 300 gram sampel",
+        "thresholds": {
+          "A": { "min": 0, "max": 11 },
+          "B": { "min": 11, "max": 25 },
+          "C": { "min": 25, "max": 1000 }
+        }
+      },
+      {
+        "id": "kadarAir",
+        "name": "Kadar Air",
+        "unit": "%",
+        "description": "Kandungan air dalam biji kopi",
+        "thresholds": {
+          "A": { "min": 10, "max": 12 },
+          "B": { "min": 12, "max": 13 },
+          "C": { "min": 0, "max": 10 }
+        }
+      },
+      {
+        "id": "ukuranBiji",
+        "name": "Ukuran Biji",
+        "unit": "screen",
+        "description": "Ukuran screen biji kopi",
+        "thresholds": {
+          "A": { "min": 17, "max": 20 },
+          "B": { "min": 15, "max": 17 },
+          "C": { "min": 0, "max": 15 }
+        }
+      },
+      {
+        "id": "warna",
+        "name": "Keseragaman Warna",
+        "unit": "%",
+        "description": "Persentase keseragaman warna biji",
+        "thresholds": {
+          "A": { "min": 95, "max": 100 },
+          "B": { "min": 85, "max": 95 },
+          "C": { "min": 0, "max": 85 }
+        }
+      }
+    ]
+  },
+  "kakao": {
+    "name": "Kakao",
+    "parameters": [
+      {
+        "id": "kadarAir",
+        "name": "Kadar Air",
+        "unit": "%",
+        "description": "Kandungan air dalam biji kakao",
+        "thresholds": {
+          "A": { "min": 0, "max": 7 },
+          "B": { "min": 7, "max": 8 },
+          "C": { "min": 8, "max": 100 }
+        }
+      },
+      {
+        "id": "bijiJamur",
+        "name": "Biji Berjamur",
+        "unit": "%",
+        "description": "Persentase biji yang berjamur",
+        "thresholds": {
+          "A": { "min": 0, "max": 2 },
+          "B": { "min": 2, "max": 4 },
+          "C": { "min": 4, "max": 100 }
+        }
+      },
+      {
+        "id": "bijiPipih",
+        "name": "Biji Pipih",
+        "unit": "%",
+        "description": "Persentase biji pipih/flat",
+        "thresholds": {
+          "A": { "min": 0, "max": 3 },
+          "B": { "min": 3, "max": 6 },
+          "C": { "min": 6, "max": 100 }
+        }
+      },
+      {
+        "id": "fermentasi",
+        "name": "Fermentasi",
+        "unit": "%",
+        "description": "Tingkat fermentasi biji",
+        "thresholds": {
+          "A": { "min": 80, "max": 100 },
+          "B": { "min": 60, "max": 80 },
+          "C": { "min": 0, "max": 60 }
+        }
+      }
+    ]
+  },
+  "karet": {
+    "name": "Karet",
+    "parameters": [
+      {
+        "id": "drc",
+        "name": "DRC (Dry Rubber Content)",
+        "unit": "%",
+        "description": "Kandungan karet kering",
+        "thresholds": {
+          "A": { "min": 28, "max": 100 },
+          "B": { "min": 25, "max": 28 },
+          "C": { "min": 0, "max": 25 }
+        }
+      },
+      {
+        "id": "kotoran",
+        "name": "Kadar Kotoran",
+        "unit": "%",
+        "description": "Kandungan benda asing",
+        "thresholds": {
+          "A": { "min": 0, "max": 0.03 },
+          "B": { "min": 0.03, "max": 0.08 },
+          "C": { "min": 0.08, "max": 100 }
+        }
+      },
+      {
+        "id": "abu",
+        "name": "Kadar Abu",
+        "unit": "%",
+        "description": "Kandungan abu dalam karet",
+        "thresholds": {
+          "A": { "min": 0, "max": 0.5 },
+          "B": { "min": 0.5, "max": 0.75 },
+          "C": { "min": 0.75, "max": 100 }
+        }
+      },
+      {
+        "id": "po",
+        "name": "PO (Plasticity Retention Index)",
+        "unit": "",
+        "description": "Indeks retensi plastisitas",
+        "thresholds": {
+          "A": { "min": 50, "max": 100 },
+          "B": { "min": 40, "max": 50 },
+          "C": { "min": 0, "max": 40 }
+        }
+      }
+    ]
+  },
+  "sawit": {
+    "name": "Kelapa Sawit (TBS)",
+    "parameters": [
+      {
+        "id": "rendemen",
+        "name": "Rendemen Minyak",
+        "unit": "%",
+        "description": "Persentase minyak yang dihasilkan",
+        "thresholds": {
+          "A": { "min": 22, "max": 100 },
+          "B": { "min": 20, "max": 22 },
+          "C": { "min": 0, "max": 20 }
+        }
+      },
+      {
+        "id": "alb",
+        "name": "ALB (Asam Lemak Bebas)",
+        "unit": "%",
+        "description": "Kandungan asam lemak bebas",
+        "thresholds": {
+          "A": { "min": 0, "max": 3 },
+          "B": { "min": 3, "max": 5 },
+          "C": { "min": 5, "max": 100 }
+        }
+      },
+      {
+        "id": "kadarAir",
+        "name": "Kadar Air",
+        "unit": "%",
+        "description": "Kandungan air dalam CPO",
+        "thresholds": {
+          "A": { "min": 0, "max": 0.15 },
+          "B": { "min": 0.15, "max": 0.2 },
+          "C": { "min": 0.2, "max": 100 }
+        }
+      },
+      {
+        "id": "kotoran",
+        "name": "Kadar Kotoran",
+        "unit": "%",
+        "description": "Kandungan kotoran dalam CPO",
+        "thresholds": {
+          "A": { "min": 0, "max": 0.02 },
+          "B": { "min": 0.02, "max": 0.03 },
+          "C": { "min": 0.03, "max": 100 }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "provinces": [
+    {
+      "id": "kalteng",
+      "name": "Kalimantan Tengah",
+      "coordinates": [-1.6814, 113.3823],
+      "regencies": [
+        {
+          "id": "kalteng-kotim",
+          "name": "Kotawaringin Timur",
+          "coordinates": [-2.5389, 112.9519],
+          "districts": [
+            {
+              "id": "kalteng-kotim-sampit",
+              "name": "Sampit",
+              "coordinates": [-2.5353, 112.9507],
+              "transmigrationAreas": ["UPT Sampit Baru", "UPT Baamang"]
+            },
+            {
+              "id": "kalteng-kotim-mentaya",
+              "name": "Mentaya Hilir Selatan",
+              "coordinates": [-2.7889, 112.8519],
+              "transmigrationAreas": ["UPT Mentaya Jaya"]
+            }
+          ]
+        },
+        {
+          "id": "kalteng-kapuas",
+          "name": "Kapuas",
+          "coordinates": [-2.9833, 114.3833],
+          "districts": [
+            {
+              "id": "kalteng-kapuas-selat",
+              "name": "Selat",
+              "coordinates": [-2.9933, 114.3633],
+              "transmigrationAreas": ["UPT Selat Makmur"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sulsel",
+      "name": "Sulawesi Selatan",
+      "coordinates": [-3.6687, 119.9740],
+      "regencies": [
+        {
+          "id": "sulsel-luwu",
+          "name": "Luwu Utara",
+          "coordinates": [-2.5500, 120.3500],
+          "districts": [
+            {
+              "id": "sulsel-luwu-masamba",
+              "name": "Masamba",
+              "coordinates": [-2.5503, 120.3257],
+              "transmigrationAreas": ["UPT Masamba Sejahtera", "UPT Bone-bone"]
+            },
+            {
+              "id": "sulsel-luwu-malangke",
+              "name": "Malangke",
+              "coordinates": [-2.4289, 120.1519],
+              "transmigrationAreas": ["UPT Malangke Baru"]
+            }
+          ]
+        },
+        {
+          "id": "sulsel-pinrang",
+          "name": "Pinrang",
+          "coordinates": [-3.7833, 119.6500],
+          "districts": [
+            {
+              "id": "sulsel-pinrang-mattiro",
+              "name": "Mattiro Sompe",
+              "coordinates": [-3.8133, 119.6267],
+              "transmigrationAreas": ["UPT Mattiro Makmur"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sumsel",
+      "name": "Sumatera Selatan",
+      "coordinates": [-3.3194, 104.9147],
+      "regencies": [
+        {
+          "id": "sumsel-oki",
+          "name": "Ogan Komering Ilir",
+          "coordinates": [-3.4167, 105.0833],
+          "districts": [
+            {
+              "id": "sumsel-oki-kayuagung",
+              "name": "Kayuagung",
+              "coordinates": [-3.4289, 104.8519],
+              "transmigrationAreas": ["UPT Kayuagung Baru", "UPT Teluk Gelam"]
+            }
+          ]
+        },
+        {
+          "id": "sumsel-muba",
+          "name": "Musi Banyuasin",
+          "coordinates": [-2.6000, 104.1000],
+          "districts": [
+            {
+              "id": "sumsel-muba-sanga",
+              "name": "Sanga Desa",
+              "coordinates": [-2.5389, 104.0519],
+              "transmigrationAreas": ["UPT Sanga Desa Makmur"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lampung",
+      "name": "Lampung",
+      "coordinates": [-4.5586, 105.4068],
+      "regencies": [
+        {
+          "id": "lampung-mesuji",
+          "name": "Mesuji",
+          "coordinates": [-3.9667, 105.5833],
+          "districts": [
+            {
+              "id": "lampung-mesuji-mesuji",
+              "name": "Mesuji",
+              "coordinates": [-3.9789, 105.5519],
+              "transmigrationAreas": ["UPT Mesuji Raya", "UPT Mesuji Timur"]
+            }
+          ]
+        },
+        {
+          "id": "lampung-tulang",
+          "name": "Tulang Bawang",
+          "coordinates": [-4.4000, 105.5000],
+          "districts": [
+            {
+              "id": "lampung-tulang-menggala",
+              "name": "Menggala",
+              "coordinates": [-4.3889, 105.4219],
+              "transmigrationAreas": ["UPT Menggala Makmur"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "papua",
+      "name": "Papua",
+      "coordinates": [-4.2699, 138.0804],
+      "regencies": [
+        {
+          "id": "papua-merauke",
+          "name": "Merauke",
+          "coordinates": [-8.4833, 140.4000],
+          "districts": [
+            {
+              "id": "papua-merauke-merauke",
+              "name": "Merauke",
+              "coordinates": [-8.4889, 140.3919],
+              "transmigrationAreas": ["UPT Merauke Baru", "UPT Tanah Miring"]
+            },
+            {
+              "id": "papua-merauke-kurik",
+              "name": "Kurik",
+              "coordinates": [-8.2333, 140.3167],
+              "transmigrationAreas": ["UPT Kurik Jaya"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

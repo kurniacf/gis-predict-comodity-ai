@@ -1,0 +1,394 @@
+{
+  "commodities": [
+    {
+      "id": "padi-kalteng-kotim",
+      "name": "Padi",
+      "category": "pertanian",
+      "regionId": "kalteng-kotim",
+      "data": {
+        "production": 125000,
+        "landArea": 28500,
+        "economicValue": 562500000000,
+        "productivityRate": 4.39
+      },
+      "historical": [
+        { "year": 2019, "production": 98000, "landArea": 24000, "economicValue": 441000000000 },
+        { "year": 2020, "production": 105000, "landArea": 25500, "economicValue": 472500000000 },
+        { "year": 2021, "production": 112000, "landArea": 26800, "economicValue": 504000000000 },
+        { "year": 2022, "production": 118000, "landArea": 27500, "economicValue": 531000000000 },
+        { "year": 2023, "production": 125000, "landArea": 28500, "economicValue": 562500000000 }
+      ],
+      "rcaData": {
+        "regionalProduction": 125000,
+        "nationalProduction": 54600000,
+        "regionalTotal": 385000,
+        "nationalTotal": 150000000,
+        "rcaScore": 1.26
+      }
+    },
+    {
+      "id": "jagung-kalteng-kotim",
+      "name": "Jagung",
+      "category": "pertanian",
+      "regionId": "kalteng-kotim",
+      "data": {
+        "production": 85000,
+        "landArea": 18000,
+        "economicValue": 297500000000,
+        "productivityRate": 4.72
+      },
+      "historical": [
+        { "year": 2019, "production": 62000, "landArea": 14000, "economicValue": 217000000000 },
+        { "year": 2020, "production": 68000, "landArea": 15200, "economicValue": 238000000000 },
+        { "year": 2021, "production": 74000, "landArea": 16100, "economicValue": 259000000000 },
+        { "year": 2022, "production": 80000, "landArea": 17200, "economicValue": 280000000000 },
+        { "year": 2023, "production": 85000, "landArea": 18000, "economicValue": 297500000000 }
+      ],
+      "rcaData": {
+        "regionalProduction": 85000,
+        "nationalProduction": 24200000,
+        "regionalTotal": 385000,
+        "nationalTotal": 150000000,
+        "rcaScore": 1.37
+      }
+    },
+    {
+      "id": "karet-kalteng-kotim",
+      "name": "Karet",
+      "category": "perkebunan",
+      "regionId": "kalteng-kotim",
+      "data": {
+        "production": 95000,
+        "landArea": 45000,
+        "economicValue": 427500000000,
+        "productivityRate": 2.11
+      },
+      "historical": [
+        { "year": 2019, "production": 78000, "landArea": 40000, "economicValue": 351000000000 },
+        { "year": 2020, "production": 82000, "landArea": 42000, "economicValue": 369000000000 },
+        { "year": 2021, "production": 87000, "landArea": 43500, "economicValue": 391500000000 },
+        { "year": 2022, "production": 91000, "landArea": 44200, "economicValue": 409500000000 },
+        { "year": 2023, "production": 95000, "landArea": 45000, "economicValue": 427500000000 }
+      ],
+      "rcaData": {
+        "regionalProduction": 95000,
+        "nationalProduction": 3100000,
+        "regionalTotal": 385000,
+        "nationalTotal": 150000000,
+        "rcaScore": 11.94
+      }
+    },
+    {
+      "id": "sawit-kalteng-kotim",
+      "name": "Kelapa Sawit",
+      "category": "perkebunan",
+      "regionId": "kalteng-kotim",
+      "data": {
+        "production": 280000,
+        "landArea": 52000,
+        "economicValue": 840000000000,
+        "productivityRate": 5.38
+      },
+      "historical": [
+        { "year": 2019, "production": 220000, "landArea": 45000, "economicValue": 660000000000 },
+        { "year": 2020, "production": 238000, "landArea": 47500, "economicValue": 714000000000 },
+        { "year": 2021, "production": 255000, "landArea": 49000, "economicValue": 765000000000 },
+        { "year": 2022, "production": 268000, "landArea": 50500, "economicValue": 804000000000 },
+        { "year": 2023, "production": 280000, "landArea": 52000, "economicValue": 840000000000 }
+      ],
+      "rcaData": {
+        "regionalProduction": 280000,
+        "nationalProduction": 48000000,
+        "regionalTotal": 385000,
+        "nationalTotal": 150000000,
+        "rcaScore": 2.27
+      }
+    },
+    {
+      "id": "sapi-kalteng-kotim",
+      "name": "Sapi Potong",
+      "category": "peternakan",
+      "regionId": "kalteng-kotim",
+      "data": {
+        "production": 15000,
+        "landArea": 0,
+        "economicValue": 375000000000,
+        "productivityRate": 0
+      },
+      "historical": [
+        { "year": 2019, "production": 11000, "landArea": 0, "economicValue": 275000000000 },
+        { "year": 2020, "production": 12200, "landArea": 0, "economicValue": 305000000000 },
+        { "year": 2021, "production": 13400, "landArea": 0, "economicValue": 335000000000 },
+        { "year": 2022, "production": 14200, "landArea": 0, "economicValue": 355000000000 },
+        { "year": 2023, "production": 15000, "landArea": 0, "economicValue": 375000000000 }
+      ],
+      "rcaData": {
+        "regionalProduction": 15000,
+        "nationalProduction": 4800000,
+        "regionalTotal": 385000,
+        "nationalTotal": 150000000,
+        "rcaScore": 1.22
+      }
+    },
+    {
+      "id": "padi-sulsel-luwu",
+      "name": "Padi",
+      "category": "pertanian",
+      "regionId": "sulsel-luwu",
+      "data": {
+        "production": 245000,
+        "landArea": 48500,
+        "economicValue": 1102500000000,
+        "productivityRate": 5.05
+      },
+      "historical": [
+        { "year": 2019, "production": 198000, "landArea": 42000, "economicValue": 891000000000 },
+        { "year": 2020, "production": 212000, "landArea": 44000, "economicValue": 954000000000 },
+        { "year": 2021, "production": 225000, "landArea": 45500, "economicValue": 1012500000000 },
+        { "year": 2022, "production": 235000, "landArea": 47000, "economicValue": 1057500000000 },
+        { "year": 2023, "production": 245000, "landArea": 48500, "economicValue": 1102500000000 }
+      ],
+      "rcaData": {
+        "regionalProduction": 245000,
+        "nationalProduction": 54600000,
+        "regionalTotal": 520000,
+        "nationalTotal": 150000000,
+        "rcaScore": 1.29
+      }
+    },
+    {
+      "id": "kakao-sulsel-luwu",
+      "name": "Kakao",
+      "category": "perkebunan",
+      "regionId": "sulsel-luwu",
+      "data": {
+        "production": 78000,
+        "landArea": 62000,
+        "economicValue": 585000000000,
+        "productivityRate": 1.26
+      },
+      "historical": [
+        { "year": 2019, "production": 65000, "landArea": 58000, "economicValue": 487500000000 },
+        { "year": 2020, "production": 68000, "landArea": 59500, "economicValue": 510000000000 },
+        { "year": 2021, "production": 72000, "landArea": 60500, "economicValue": 540000000000 },
+        { "year": 2022, "production": 75000, "landArea": 61200, "economicValue": 562500000000 },
+        { "year": 2023, "production": 78000, "landArea": 62000, "economicValue": 585000000000 }
+      ],
+      "rcaData": {
+        "regionalProduction": 78000,
+        "nationalProduction": 720000,
+        "regionalTotal": 520000,
+        "nationalTotal": 150000000,
+        "rcaScore": 31.25
+      }
+    },
+    {
+      "id": "kopi-sulsel-luwu",
+      "name": "Kopi Arabika",
+      "category": "perkebunan",
+      "regionId": "sulsel-luwu",
+      "data": {
+        "production": 12500,
+        "landArea": 15000,
+        "economicValue": 312500000000,
+        "productivityRate": 0.83
+      },
+      "historical": [
+        { "year": 2019, "production": 9800, "landArea": 13000, "economicValue": 245000000000 },
+        { "year": 2020, "production": 10500, "landArea": 13800, "economicValue": 262500000000 },
+        { "year": 2021, "production": 11200, "landArea": 14200, "economicValue": 280000000000 },
+        { "year": 2022, "production": 11900, "landArea": 14600, "economicValue": 297500000000 },
+        { "year": 2023, "production": 12500, "landArea": 15000, "economicValue": 312500000000 }
+      ],
+      "rcaData": {
+        "regionalProduction": 12500,
+        "nationalProduction": 765000,
+        "regionalTotal": 520000,
+        "nationalTotal": 150000000,
+        "rcaScore": 4.71
+      }
+    },
+    {
+      "id": "ikan-sulsel-luwu",
+      "name": "Ikan Bandeng",
+      "category": "perikanan",
+      "regionId": "sulsel-luwu",
+      "data": {
+        "production": 45000,
+        "landArea": 8500,
+        "economicValue": 337500000000,
+        "productivityRate": 5.29
+      },
+      "historical": [
+        { "year": 2019, "production": 35000, "landArea": 7200, "economicValue": 262500000000 },
+        { "year": 2020, "production": 38000, "landArea": 7600, "economicValue": 285000000000 },
+        { "year": 2021, "production": 40500, "landArea": 7900, "economicValue": 303750000000 },
+        { "year": 2022, "production": 43000, "landArea": 8200, "economicValue": 322500000000 },
+        { "year": 2023, "production": 45000, "landArea": 8500, "economicValue": 337500000000 }
+      ],
+      "rcaData": {
+        "regionalProduction": 45000,
+        "nationalProduction": 650000,
+        "regionalTotal": 520000,
+        "nationalTotal": 150000000,
+        "rcaScore": 19.97
+      }
+    },
+    {
+      "id": "padi-sumsel-oki",
+      "name": "Padi",
+      "category": "pertanian",
+      "regionId": "sumsel-oki",
+      "data": {
+        "production": 385000,
+        "landArea": 72000,
+        "economicValue": 1732500000000,
+        "productivityRate": 5.35
+      },
+      "historical": [
+        { "year": 2019, "production": 320000, "landArea": 64000, "economicValue": 1440000000000 },
+        { "year": 2020, "production": 342000, "landArea": 66500, "economicValue": 1539000000000 },
+        { "year": 2021, "production": 358000, "landArea": 68500, "economicValue": 1611000000000 },
+        { "year": 2022, "production": 372000, "landArea": 70200, "economicValue": 1674000000000 },
+        { "year": 2023, "production": 385000, "landArea": 72000, "economicValue": 1732500000000 }
+      ],
+      "rcaData": {
+        "regionalProduction": 385000,
+        "nationalProduction": 54600000,
+        "regionalTotal": 680000,
+        "nationalTotal": 150000000,
+        "rcaScore": 1.56
+      }
+    },
+    {
+      "id": "karet-sumsel-oki",
+      "name": "Karet",
+      "category": "perkebunan",
+      "regionId": "sumsel-oki",
+      "data": {
+        "production": 165000,
+        "landArea": 85000,
+        "economicValue": 742500000000,
+        "productivityRate": 1.94
+      },
+      "historical": [
+        { "year": 2019, "production": 135000, "landArea": 78000, "economicValue": 607500000000 },
+        { "year": 2020, "production": 145000, "landArea": 80500, "economicValue": 652500000000 },
+        { "year": 2021, "production": 152000, "landArea": 82500, "economicValue": 684000000000 },
+        { "year": 2022, "production": 158000, "landArea": 83800, "economicValue": 711000000000 },
+        { "year": 2023, "production": 165000, "landArea": 85000, "economicValue": 742500000000 }
+      ],
+      "rcaData": {
+        "regionalProduction": 165000,
+        "nationalProduction": 3100000,
+        "regionalTotal": 680000,
+        "nationalTotal": 150000000,
+        "rcaScore": 11.74
+      }
+    },
+    {
+      "id": "padi-lampung-mesuji",
+      "name": "Padi",
+      "category": "pertanian",
+      "regionId": "lampung-mesuji",
+      "data": {
+        "production": 168000,
+        "landArea": 32500,
+        "economicValue": 756000000000,
+        "productivityRate": 5.17
+      },
+      "historical": [
+        { "year": 2019, "production": 135000, "landArea": 28000, "economicValue": 607500000000 },
+        { "year": 2020, "production": 145000, "landArea": 29500, "economicValue": 652500000000 },
+        { "year": 2021, "production": 155000, "landArea": 30800, "economicValue": 697500000000 },
+        { "year": 2022, "production": 162000, "landArea": 31600, "economicValue": 729000000000 },
+        { "year": 2023, "production": 168000, "landArea": 32500, "economicValue": 756000000000 }
+      ],
+      "rcaData": {
+        "regionalProduction": 168000,
+        "nationalProduction": 54600000,
+        "regionalTotal": 420000,
+        "nationalTotal": 150000000,
+        "rcaScore": 1.10
+      }
+    },
+    {
+      "id": "singkong-lampung-mesuji",
+      "name": "Singkong",
+      "category": "pertanian",
+      "regionId": "lampung-mesuji",
+      "data": {
+        "production": 145000,
+        "landArea": 18500,
+        "economicValue": 217500000000,
+        "productivityRate": 7.84
+      },
+      "historical": [
+        { "year": 2019, "production": 115000, "landArea": 15500, "economicValue": 172500000000 },
+        { "year": 2020, "production": 125000, "landArea": 16500, "economicValue": 187500000000 },
+        { "year": 2021, "production": 132000, "landArea": 17200, "economicValue": 198000000000 },
+        { "year": 2022, "production": 138000, "landArea": 17800, "economicValue": 207000000000 },
+        { "year": 2023, "production": 145000, "landArea": 18500, "economicValue": 217500000000 }
+      ],
+      "rcaData": {
+        "regionalProduction": 145000,
+        "nationalProduction": 18500000,
+        "regionalTotal": 420000,
+        "nationalTotal": 150000000,
+        "rcaScore": 2.80
+      }
+    },
+    {
+      "id": "padi-papua-merauke",
+      "name": "Padi",
+      "category": "pertanian",
+      "regionId": "papua-merauke",
+      "data": {
+        "production": 295000,
+        "landArea": 55000,
+        "economicValue": 1327500000000,
+        "productivityRate": 5.36
+      },
+      "historical": [
+        { "year": 2019, "production": 225000, "landArea": 45000, "economicValue": 1012500000000 },
+        { "year": 2020, "production": 248000, "landArea": 48500, "economicValue": 1116000000000 },
+        { "year": 2021, "production": 265000, "landArea": 51000, "economicValue": 1192500000000 },
+        { "year": 2022, "production": 280000, "landArea": 53200, "economicValue": 1260000000000 },
+        { "year": 2023, "production": 295000, "landArea": 55000, "economicValue": 1327500000000 }
+      ],
+      "rcaData": {
+        "regionalProduction": 295000,
+        "nationalProduction": 54600000,
+        "regionalTotal": 380000,
+        "nationalTotal": 150000000,
+        "rcaScore": 2.13
+      }
+    },
+    {
+      "id": "sapi-papua-merauke",
+      "name": "Sapi Potong",
+      "category": "peternakan",
+      "regionId": "papua-merauke",
+      "data": {
+        "production": 28000,
+        "landArea": 0,
+        "economicValue": 700000000000,
+        "productivityRate": 0
+      },
+      "historical": [
+        { "year": 2019, "production": 18500, "landArea": 0, "economicValue": 462500000000 },
+        { "year": 2020, "production": 21000, "landArea": 0, "economicValue": 525000000000 },
+        { "year": 2021, "production": 23500, "landArea": 0, "economicValue": 587500000000 },
+        { "year": 2022, "production": 25800, "landArea": 0, "economicValue": 645000000000 },
+        { "year": 2023, "production": 28000, "landArea": 0, "economicValue": 700000000000 }
+      ],
+      "rcaData": {
+        "regionalProduction": 28000,
+        "nationalProduction": 4800000,
+        "regionalTotal": 380000,
+        "nationalTotal": 150000000,
+        "rcaScore": 2.30
+      }
+    }
+  ]
+}
