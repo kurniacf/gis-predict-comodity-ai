@@ -28,7 +28,6 @@ interface CommodityRankingTableProps {
 export function CommodityRankingTable({
   commodities,
   onRowClick,
-  sortBy: _sortBy = 'final',
   onSortChange,
   className,
 }: CommodityRankingTableProps) {
